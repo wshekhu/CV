@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(245, 205, 205);
+    font-family: 'Cutive Mono', monospace;
+}
+
+hr{
+    border-color: rgb(124, 25, 25);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 10%;
+}
+
+h1{
+    color: #25ad43;
+}
+
+h3{
+    color: #0541e6;
+}

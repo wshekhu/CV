@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h3>Contact Me</h3>
@@ -11,5 +12,16 @@
         <li><a href="mailto:waghela237@gmail.com">Send by mail</a></li>
         <li>Mobile : <a href="tel:+61421494423">0421494423</a></li>
     </ul>
+    <hr>
+    <form action="mailto:waghela237@gmail.com" method="POST" enctype="text/plain"> 
+        <label>Your Name:</label>
+        <input type="text" name="theName"><br>
+        <label>Your Email:</label>
+        <input type="email" name="theEmail"><br>
+        <label>Your Message:</label><br>
+        <textarea rows="10" cols="30" name="theMessage"></textarea><br>
+        <input type="submit">
+
+    </form>
 </body>
 </html>
